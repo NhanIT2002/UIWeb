@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+.home {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.home .header {
+    background-image: url('../../assets/images/LpsID5Ma.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.home .header .nav{
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.3;
+    color: #ffffff;
+}
+
+.header .head {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: auto;
+    margin: 2rem 0 0 0;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo .hover-text {
+    position: absolute;
+    top: 120%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    opacity: 0;
+    transition: opacity 0.3 ease;
+    white-space: nowrap;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo:hover .hover-text {
+    opacity: 1;
+}
+
+.head .navbar {
+    display: flex;
+    margin: 2.5rem 0 0 0;
+    float: right;
+}
+
+.head .navbar div{
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0.25rem 0.75rem;
+}
+
+.head .navbar div:last-child{
+    background-color: #ffffff;
+    color: #016156;
+    padding: 0.5rem 0.75rem;
+    margin-top: -0.25rem;
+    border-radius: 0.25rem;
+}
+
+.head .navbar div:not(:last-child):hover {
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+}
+
+.head .navbar div:last-child:hover {
+    cursor: pointer;
+}
+
+.head .introduce {
+    margin-top: 13%;
+    color: #ffffff;
+}
+
+.head .introduce span {
+    font-size: 2.75rem;
+    font-weight: 100;
+}
+
+.head .introduce .group-button {
+    margin-top: 1rem;
+}
+
+.head .introduce .group-button button {
+    font-size: 0.6rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    color: #016156;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 1.5rem;
+    font-weight: bold;
+}
+
+/* CSS Stories */
+
+.stories {
+    width: 100vw;
+    background-color: #0af;
+    color: #ffffff;
+}
+
+.stories .container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.stories .title-stories {
+    font-size: 2.5rem;
+    text-align: center;
+}
+

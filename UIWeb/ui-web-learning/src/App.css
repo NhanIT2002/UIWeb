@@ -1,0 +1,13 @@
+.App ul {
+  list-style-type: none;
+}
+
+.App ul li a{
+  text-decoration: none;
+  color: #000000; 
+}
+
+.App ul li a:hover {
+  cursor: pointer;
+  color: #61dafb;
+}

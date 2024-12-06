@@ -1,1 +1,2 @@
-"# UIWeb" 
+- This project simulates the interface of a Japanese learning website using the ReactJS framework
+- Author: Nhan Nguyen Le Trong

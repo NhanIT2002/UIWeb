@@ -1,0 +1,32 @@
+#methods.methods-container {
+    width: 70%;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+#methods.methods-container .method {
+    margin-bottom: 3rem;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#methods.methods-container .method .method-image {
+    width: 250px;
+    height: 200px;
+}
+
+#methods.methods-container .method .method-name {
+    font-size: 2rem; 
+    margin: 1rem 0;
+}
+
+#methods.methods-container .method .method-description {
+    font-size: 1rem;
+}
+
+

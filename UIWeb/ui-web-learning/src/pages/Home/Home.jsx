@@ -65,10 +65,10 @@ const Home = () => {
                 <div className="contact-container">
                     <div className="contact-title">How many kanji can you learn this month? Try WaniKani for tree.</div>
                     <div className="contact-button">
-                        <button className="join">Join us</button>
+                        <button className="join"><a href="/signup">Join us</a></button>
                         <button className="chat">Chat with us</button>
                     </div>
-                    <div className="contact-des">...or <a href="/signup">sign in</a></div>
+                    <div className="contact-des">...or <a href="/login">sign in</a></div>
                     <div className="footer">
                         <div className="footer-title">WaniKani is brought to you by</div>
                         <a href="https://www.tofugu.com/">

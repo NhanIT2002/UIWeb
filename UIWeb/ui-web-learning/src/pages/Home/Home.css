@@ -82,6 +82,11 @@
     text-decoration: none;
 }
 
+.head .navbar div .nav-login {
+    color: #016156;
+
+}
+
 .head .navbar div:last-child{
     background-color: #ffffff;
     color: #016156;

@@ -29,8 +29,8 @@ const Home = () => {
                     <div className="navbar">
                         <div><a href="#stories" onClick={handleSmoothScroll}>Success Stories</a></div>
                         <div><a href="#methods" onClick={handleSmoothScroll}>Our Method</a></div>
-                        <div><a href="">Sign In</a></div>
-                        <div>Join Us</div>
+                        <div><a href="/login">Sign In</a></div>
+                        <div><a className="nav-login" href="/signup">Join Us</a></div>
                     </div>
                     <div className="introduce">
                         <span className="content-1">2,000 kanji.</span> <br />
@@ -68,7 +68,7 @@ const Home = () => {
                         <button className="join">Join us</button>
                         <button className="chat">Chat with us</button>
                     </div>
-                    <div className="contact-des">...or <a href="">sign in</a></div>
+                    <div className="contact-des">...or <a href="/signup">sign in</a></div>
                     <div className="footer">
                         <div className="footer-title">WaniKani is brought to you by</div>
                         <a href="https://www.tofugu.com/">

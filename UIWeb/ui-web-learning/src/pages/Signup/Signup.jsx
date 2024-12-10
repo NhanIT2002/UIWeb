@@ -22,7 +22,7 @@ const Signup = () => {
                 </div>
                 <div className="form-check">
                     <input type="checkbox" className="" />
-                    <label>Accept the <a href="">Term of Service</a></label>
+                    <label>Accept the <a href="/term-of-service" target="blank">Term of Service</a></label>
                 </div>
                 <div className="form-check">
                     <input type="checkbox" className="" />
